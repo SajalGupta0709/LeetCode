@@ -14,5 +14,6 @@ class Solution {
             char c=r.charAt(i);
             n+=Character.getNumericValue(c)*Math.pow(2,i);
         }
-    return n;}
+    return n;
+    }
 }
